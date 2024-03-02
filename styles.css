@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+body {
+  background-image: url(imagenes/MARIO.jpg) no-repeat center center/ cover;
+   height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+}
+
+form {
+  height: 51vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  border: 3px dashed rgb(69, 200, 233);
+  border-radius: 3px;
+  margin: auto;
+  width: 600px;
+  padding: 7rem;
+    
+    
+}
+label {
+  display: inline-block;  
+  text-align: right;
+  width: 90px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li{
+  margin: 16px;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+input, textarea {
+    font: 1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 300px;
+    box-sizing: border-box;
+    border: 2px solid blue;
+    border-radius: 5px;
+}
+textarea{
+  vertical-align: top;
+  height: 3em;
+}
+
+button {
+  width: 100px;
+  border-radius: 5px;
+  border: 1px solid blue;
+  cursor: pointer;
+}
